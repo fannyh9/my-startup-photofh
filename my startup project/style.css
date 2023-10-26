@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+
+@import url("component/avatar.css");
+@import url("component/container.css");
+@import url("component/button.css");
+@import url("component/banner.css");
+@import url("component/card.css");
+
+
+
+
+
+body {
+  font-family: 'fantasy;', serif;
+  font-size: 16px;
+  margin: 1px;
+}
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin: 38px;
+}
+a{
+	text-decoration: none;
+}
+s.avatar {
+	width: 100px;
+	height: 100px; 
+	border-radius: 50%;
+}
+.banner {
+	background-image: url(../../images/ban.jpeg);
+	color: black;
+	padding: 150px;
+	background-size: cover; 
+	background-position: center;
+
+}
+
+.banner h1 {
+	font-size: 52px; 
+
+}
+
+.banner h2 {
+	font-size: 38px; 
+	font-weight: lighter; 
+	opacity: 0,7;
+	margin-bottom: 40px;
+}
+.btn-blue {
+	background-color: #000000; 
+	padding: 15px 20px; 
+	border-radius: 5px; 
+	margin-left: 33px ; 
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+	margin: 15px;
+	background-color: lightgrey;
+	border-radius: 13px;
+	box-shadow: 0px 10px 13px;
+
+}
+.card img {
+	width: 200px;
+    border-radius: 13px;
+
+}
+.card h3 {
+	flex-grow: 1;
+	padding-left: 280px; 
+	font-size: 24px;
+}
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+@media (max-width : 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width : 550px) {
+	.container {
+		width: 400px;
+	}
+}
+.avatar {
+	position: center; 
+	margin: 0 auto;
+}
